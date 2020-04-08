@@ -1,0 +1,25 @@
+@import 'list.scss';
+@import 'panel.scss';
+@import 'checkbox.scss';
+
+body {
+  margin: 0;
+  font-family: Roboto, sans-serif;
+}
+* {
+  box-sizing: border-box;
+}
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+.application {
+  width: 1069px;
+  margin: 0 auto;
+  padding: 90px 112px 90px 172px;
+}
+.title {
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 41px;
+}
